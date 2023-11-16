@@ -1,0 +1,13 @@
+api.miapp.com
+
+Controlador: api.miapp.com/news
+
+- GET api.miapp.com/news -> Obtener noticiassssssssss
+- GET api.miapp.com/news/{id} -> Obtengo la noticia con id = {id}
+- POST api.miapp.com/news -> Crear una noticia
+- PUT api.miapp.com/news/{id} -> Actualizar una noticia
+- DELETE api.miapp.com/news/{id} -> Borrar una noticia
+
+- Autenticacion -> Tener un usuario valido (token, cookie, etc)
+- Autorizacion -> Que mi usuario pueda realizar la accion
+- Seguridad -> No pueda hackearte la maquina
